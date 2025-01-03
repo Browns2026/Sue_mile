@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string> // 문자열 자료형을 사용하기 위해 포함
+#include <string>
 using namespace std;
 
 int main() {
@@ -11,13 +11,13 @@ int main() {
     cout << "Height: " << height << " cm" << endl;
     cout << "Weight: " << weight << " kg" << endl;
 
-    char grade = 'A'; // 한 글자만 저장 가능
+    char grade = 'A';
     cout << "Grade: " << grade << endl;
 
-    string name = "Alice"; // 여러 글자를 저장 가능
+    string name = "Alice";
     cout << "Name: " << name << endl;
 
-    bool isStudent = true; // true 또는 false만 저장 가능
+    bool isStudent = true; // or false only
     cout << "Is student: " << boolalpha << isStudent << endl;
 
     auto ageNextYear = age + 1;

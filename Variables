@@ -1,9 +1,27 @@
 #include <iostream>
+#include <string> // 문자열 자료형을 사용하기 위해 포함
 using namespace std;
-int main (){
-    int a = 10;
-    float b = 3.14;
-    char c = 'A';
-    bool isHappy = true;
+
+int main() {
+    int age = 25;
+    cout << "Age: " << age << endl;
+
+    float height = 175.5;
+    double weight = 70.2;
+    cout << "Height: " << height << " cm" << endl;
+    cout << "Weight: " << weight << " kg" << endl;
+
+    char grade = 'A'; // 한 글자만 저장 가능
+    cout << "Grade: " << grade << endl;
+
+    string name = "Alice"; // 여러 글자를 저장 가능
+    cout << "Name: " << name << endl;
+
+    bool isStudent = true; // true 또는 false만 저장 가능
+    cout << "Is student: " << boolalpha << isStudent << endl;
+
+    auto ageNextYear = age + 1;
+    cout << "Age next year: " << ageNextYear << endl;
+
     return 0;
 }
